@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "name":"Toefl",
+        "breed":"Beagle",
+        "type":"dog",
+        "age":"2 yr",
+        "gender":"female",
+        "image":"assets/pets/toefl.png",
+        "description": "Toefl is a spirited 2-year-old beagle with an adventurous heart! This playful pup loves to sniff around and explore her surroundings, making every walk a fun-filled adventure. With her charming floppy ears and bright, curious eyes, Toefl is always on the lookout for new friends and exciting games to play. Her joyful energy and affectionate personality make her an ideal companion for families or active individuals. If you’re ready to bring some excitement and laughter into your home, Toefl is waiting for you at Shnugglers. Come meet her and see how she can become your new best friend!"
+    },
+    {
+        "id": 2,
+        "name":"Freddie Meowcury",
+        "breed":"Siamese",
+        "type":"cat",
+        "age":"4 yr",
+        "gender":"male",
+        "image":"assets/pets/meowcury.png",
+        "description": "Freddie Meowcury is a stunning 4-year-old Siamese cat with striking blue eyes and a personality to match! This gentle soul is known for his affectionate nature and playful antics, making him the ultimate cuddle buddy. Freddie loves to lounge in sunny spots and watch the world go by, but he also enjoys interactive playtime with feather toys and laser pointers. His calm demeanor and loving purrs will warm your heart and make any house feel like a home. If you’re looking for a feline friend to share your life with, come meet Freddie Meowcury at Shnugglers—he’s ready to bring joy and companionship to your family!"
+    },
+    
+    {
+        "id": 3,
+        "name":"Winnie",
+        "breed":"Poodle",
+        "type":"dog",
+        "age":"1 yr",
+        "gender":"female",
+        "image":"assets/pets/winnie.png",
+        "description": "Winnie is a lovable 1-year-old female poodle who is full of energy and charm! With her curly coat and bright eyes, she’s always ready for fun—whether it’s playing fetch, learning new tricks, or just enjoying a nice walk. Winnie’s playful nature is matched by her affectionate side, making her the perfect companion for anyone looking for a sweet and active dog. She’s eager to find her forever family and bring joy into their lives. Come meet Winnie at Shnugglers and see how she can make every day brighter!"
+    },
+    
+    {
+        "id": 4,
+        "name":"Barkley",
+        "breed":"Corgi",
+        "type":"dog",
+        "age":"1 yr",
+        "gender":"male",
+        "image":"assets/pets/barkley.png",
+        "description": "Barkley is a lively 1-year-old corgi bursting with energy and enthusiasm! With his adorable short legs and fluffy tail, this little guy loves to play fetch and go on adventures. His playful spirit and affectionate nature make him the perfect companion for anyone looking to add a furry friend to their family. Barkley is always ready to brighten your day with his silly antics and wagging tail. If you’re looking for a fun-loving buddy to share your life with, Barkley is eager to find his forever home. Come meet him at Shnugglers and discover the joy he can bring to your life!"
+    },
+    {
+        "id": 5,
+        "name":"Chairman Meow",
+        "breed":"Calico",
+        "type":"cat",
+        "age":"6 yr",
+        "gender":"male",
+        "image":"assets/pets/chairman.png",
+        "description": "Chairman Meow is a distinguished 6-year-old male calico cat with a calm and confident personality. Despite his regal name, he’s incredibly affectionate and loves lounging beside his favorite humans. With his unique calico coat and mesmerizing eyes, Chairman Meow is a true one-of-a-kind feline. He enjoys quiet afternoons curled up in cozy spots and occasional play sessions with his toys. Perfect for someone looking for a relaxed and loving companion, Chairman Meow is ready to rule your heart with his gentle charm. Visit Shnugglers to meet this wise and whiskered leader—he’s eager to find his forever home!"
+    },
+    
+    {
+        "id": 6,
+        "name":"Catastrophe",
+        "breed":"Sphynx",
+        "type":"cat",
+        "age":"2 yr",
+        "gender":"female",
+        "image":"assets/pets/catastrophe.png",
+        "description": "Catastrophe is a unique and lovable 2-year-old female Sphynx cat with a personality as bold as her name! This hairless beauty may look strikingly different, but she’s incredibly affectionate and loves being the center of attention. Catastrophe enjoys cuddling up in warm blankets, playing with her favorite toys, and being by your side. Her quirky, fun-loving nature makes her the perfect companion for someone who appreciates a cat with both charm and spunk. If you’re looking for a truly one-of-a-kind feline, Catastrophe is ready to bring her playful spirit into your home. Meet her at Shnugglers today!"
+    },
+    {
+        "id": 7,
+        "name":"Chick n' Nugget",
+        "breed":"Pug",
+        "type":"dog",
+        "age":"1 mth",
+        "gender":"male",
+        "image":"assets/pets/ChicknNugget.png",
+        "description": "Chick and Nugget are an inseparable pair of 1-month-old male pugs who are double the fun and double the love! These playful brothers are full of puppy energy, always tumbling over each other and exploring the world side by side. Whether they’re chasing after toys or cuddling up for a nap, Chick and Nugget are happiest when they’re together. They share a special bond and must be adopted as a pair to keep the puppy love going strong! If you’re ready for endless cuteness and twice the snuggles, come meet Chick and Nugget at Shnugglers and give them their forever home!"
+    },
+    {
+        "id": 8,
+        "name":"Mewlan",
+        "breed":"Scottish Fold",
+        "type":"cat",
+        "age":"3 yr",
+        "gender":"female",
+        "image":"assets/pets/mewlan.png",
+        "description": "Mewlan is a sweet 3-year-old female Scottish Fold with her signature folded ears and a soft, plush coat. She has a calm and affectionate nature, making her the perfect companion for quiet moments and cozy cuddles. Mewlan loves lounging in sunny spots and will happily curl up next to you for some quality relaxation time. While she enjoys gentle play, she’s also perfectly content being your peaceful, purring friend. If you’re looking for a loving and graceful cat to share your home with, Mewlan is ready to meet you at Shnugglers and find her forever family!"
+    },
+    {
+        "id": 9,
+        "name":"Pseudo",
+        "breed":"Golden Retriever",
+        "type":"dog",
+        "age":"2 yr",
+        "gender":"male",
+        "image":"assets/pets/pseudo.png",
+        "description": "Pseudo is a charming 2-year-old male golden retriever who embodies the essence of loyalty and joy. With his golden fur that shines in the sunlight and his playful spirit, he is always ready for a fun day at the park or a cozy cuddle session on the couch. Pseudo loves to meet new friends—both human and furry—and his gentle demeanor makes him great with kids and other pets. If you're looking for a loving companion to bring laughter and happiness into your home, Pseudo is ready to meet you at Shnugglers and become your best friend for life!"
+    }
+
+]

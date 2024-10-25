@@ -1,0 +1,51 @@
+// Fonts
+$quicksand: "Quicksand", sans-serif;
+$raleway: "Raleway", sans-serif;
+
+// Light mode variables
+$primary-color: #50B8B8;
+$secondary-color: #FE758D;
+
+$about-headers: #378285;
+
+$copyright: #082727;
+$copyright-text: #F5F5F5;
+
+$footer-light: #0C3435;
+$bg-light-white: #F5F5F5;
+$bg-light-mint: #E1EAE7;
+$paragraph-light: #6C6B6B;
+
+// Dark mode variables
+$footer-dark: #E1EAE7;
+$bg-dark-gray: #353535;
+$bg-dark-green: #082727;
+$paragraph-dark: #CFCFCF;
+
+$female-color: darken($secondary-color, 5%);
+$male-color: darken($primary-color, 5%);
+
+@function theme-color($color-light, $color-dark, $mode: 'light') {
+  @if $mode == 'light' {
+    @return $color-light;
+  } @else {
+    @return $color-dark;
+  }
+}
+
+@mixin theme-mode($mode: 'light') {
+  --footer-bg: #{theme-color($footer-light, $footer-dark, $mode)};
+  --bg-light: #{theme-color($bg-light-white, $bg-dark-gray, $mode)};
+  --bg-dark: #{theme-color($bg-light-mint, $bg-dark-green, $mode)};
+  --paragraph: #{theme-color($paragraph-light, $paragraph-dark, $mode)};
+  --copyright-bg: #{$copyright};
+  --copyright-text: #{$copyright-text};
+}
+
+:root {
+  @include theme-mode('light');
+}
+
+.dark-mode {
+  @include theme-mode('dark');
+}

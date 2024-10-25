@@ -1,0 +1,36 @@
+.process {
+    background-color: var(--bg-dark);
+    .process-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .process-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                font-family: $quicksand;
+                color: var(--paragraph);
+                font-weight: 500;
+                margin-top: 1rem;
+                font-size: 1.2rem;
+
+                a{
+                    color: $primary-color;
+                }
+            }
+
+            img{
+                width: 50%;
+                border-radius: 20px;
+                text-align: center;
+            }
+        }
+    }
+}

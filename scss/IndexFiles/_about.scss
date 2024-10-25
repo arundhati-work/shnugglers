@@ -1,0 +1,47 @@
+.about-container{
+    background-color: var(--bg-dark);
+
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem 1rem;
+        font-family: $quicksand;
+
+        .about-row{
+            display: flex;
+            align-items: center;
+            .right-align{
+                text-align: right;
+            }
+
+            .about-image{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 80%;
+                }
+            }
+
+            .about-text{
+                margin: 0 2rem;
+            }
+    
+            h3{
+                color: $about-headers;
+                margin-bottom: 1rem;
+                font-size: 1.7rem;
+            }
+    
+            p{
+                color: var(--paragraph);
+                font-size: 1.2rem;
+            }
+        }
+    
+        
+    }
+}
+

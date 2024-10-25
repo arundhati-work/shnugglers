@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shnugglers</title>
+</head>
+<body>
+    <div class="pet-details-container">
+        <div class="navbar">
+            <div class="logo">
+                <button onclick="toHome()"><img src="assets/logo.png" alt="Shnugglers"></button>
+            </div>
+            <div class="nav-links">
+                <button onclick="scrollToSection('hero-section', 'index')">Home</button>
+                <button onclick="scrollToSection('about-section', 'index')">About Us</button>
+                <button onclick="scrollToSection('pets-container', 'index')">Our Pets</button>
+                <button class="pink-btn" onclick="scrollToSection('form-container', 'adoption')">Adopt Now</button>
+            </div>
+            <button id="mode-toggle">
+                <img id="mode-toggle-img" src="" alt="">
+            </button>
+        </div>
+        <div class="inner-container">
+            <div class="pet-image">
+                <img id="pet-image" src="" alt="Pet">
+            </div>
+            <div class="pet-text">
+                <h1 id="pet-name"></h1>
+                <div class="breed-age">
+                    <h3 id="pet-breed"></h3>
+                    <h3 id="pet-age"></h3>
+                </div>
+                <p id="pet-description"></p>
+                <button class="pink-btn" id="adopt"  onclick="scrollToSection('form-container', 'adoption')"></button>
+            </div>
+        </div>
+    </div>
+    <div class="process">
+        <div class="inner-container">
+            <h2>How to Adopt?</h2>
+            <div class="process-content">
+                <div class="process-item">
+                    <img src="assets/form-img.png" alt="form">
+                    <p>Fill the <a href="#form-container">Adoption Form</a></p>
+                </div>
+                <div class="process-item">
+                    <img src="assets/meet-img.png" alt="meet">
+                    <p>Meet your new friend</p>
+                </div>
+                <div class="process-item">
+                    <img src="assets/home-img.png" alt="home">
+                    <p>Bring them home!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-container" id="form-container">
+        <div class="inner-container">
+            <h2>Adoption Form</h2>
+            <form action="" id="adoption-form">
+                <label for="fullName">Full Name:</label>
+                <input type="text" name="fullName" id="fullName" placeholder="First Full Name"/>
+                <div class="error" id="error-fullName">Please enter valid name</div>
+
+                <label for="emailId">Email Id:</label>
+                <input type="text" name="emailId" id="emailId" placeholder="yourname@domain.com"/>
+                <div class="error" id="error-emailId">Please enter valid Email ID</div>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" placeholder="xxx-xxx-xxxx"/>
+                <div class="error" id="error-phoneNumber">Please enter valid phone number</div>
+
+                <label for="streetAddress">Street Address:</label>
+                <input type="text" name="streetAddress" id="streetAddress" placeholder="address"/>
+                <div class="error" id="error-streetAddress">Please enter valid street address</div>
+
+
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city" placeholder="City"/>
+                <div class="error" id="error-city">Please enter valid city</div>
+
+                <label for="state">State:</label>
+                <input type="text" name="state" id="state" placeholder="State"/>
+                <div class="error" id="error-state">Please enter valid state</div>
+                <br><br>
+
+                <button id="submit" class="pink-btn" onclick="submitForm()" disabled>Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container" id="footer-section">
+            <div class="links">
+                <div class="border-right"><a href="#form-container">Adopt a Pet</a></div>
+                <div class="border-right"><a href="#footer-section">Contact Us</a></div>
+                <div><a href="index.html#about-section">About Us</a></div>
+            </div>
+            <div class="contact">
+                <div class="socials">
+                    <a href="https://about.meta.com/"><img id="facebook-img" src="assets/facebook-light.png" alt="Facebook"></a>
+                    <a href="https://x.com/?lang=en"><img id="twitter-img" src="assets/twitter-light.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/?hl=en"><img id="instagram-img" src="assets/instagram-light.png" alt="Instagram"></a>
+                </div>
+                <div class="tel-email">
+                    <div>
+                        <img id="email-img" src="assets/email-light.png" alt="email">
+                        <a href="mailto:hr@shnugglers.co.in">hr@shnugglers.co.in</a>
+                    </div>
+                    <div>
+                        <img id="phone-img" src="assets/phone-light.png" alt="tel">
+                        <a href="tel:+18575651234">+1-857-565-1234</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright of Shnugglers&ensp; | &ensp;All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="adoption.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>

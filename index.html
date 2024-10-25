@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shnugglers</title>
+</head>
+<body class="light-mode">
+    <div class="hero-container" id="hero-section">
+        <div class="navbar">
+            <div class="logo">
+                <button onclick="toHome()"><img src="assets/logo.png" alt="Shnugglers"></button>
+            </div>
+            <div class="nav-links">
+                <button onclick="scrollToSection('hero-section', 'index')">Home</button>
+                <button onclick="scrollToSection('about-section', 'index')">About Us</button>
+                <button onclick="scrollToSection('pets-container', 'index')">Our Pets</button>
+                <button class="pink-btn" onclick="scrollToSectionPetCards('form-container','adoption')">Adopt Now</button>
+            </div>
+            <button id="mode-toggle">
+                <img id="mode-toggle-img" src="" alt="">
+            </button>
+    </div>
+        <div class="inner-container">
+            <div class="text">
+                <h1>
+                    Find your Perfect Snuggle Buddy :)
+                </h1>
+                <p>Welcome to Shnugglers, where cats and dogs find loving homes. Start your adoption journey today!</p>
+                <button class="pink-btn" onclick="scrollToSection('pets-container', 'index')">
+                    Browse Pets
+                </button>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero-img.png" alt="pets">
+            </div>
+        </div>
+    </div>
+
+    <div class="about-container" id="about-section">
+        <div class="inner-container">
+            <h2>Why Choose Shnugglers</h2>
+            <div class="about-content">
+                <div class="about-row">
+                    <div class="about-image">
+                        <img src="assets/companion.png" alt="Companion">
+                    </div>
+                    <div class="about-text">
+                        <h3>Lifelong Companionship</h3>
+                        <p>Our pets are more than just animals—they’re loyal companions ready to fill your home with love and joy.</p>
+                    </div>
+                </div>
+                <div class="about-row">
+                    <div class="about-text right-align">
+                        <h3>Rescue and Support</h3>
+                        <p>By adopting from Shnugglers, you’re giving a pet a second chance at a happy life while supporting rescue efforts.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/rescue.png" alt="Rescue">
+                    </div>
+                </div>
+                <div class="about-row">
+                    <div class="about-image">
+                        <img src="assets/easy.png" alt="Easy">
+                    </div>
+                    <div class="about-text">
+                        <h3>Easy Adoption Process</h3>
+                        <p>Our simple and streamlined adoption process ensures that you can focus on what matters most—welcoming your new furry friend.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pets-container" id="pets-container">
+        <div class="inner-container">
+            <h2>Meet our Pets</h2>
+            <div class="pets-content">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="links">
+                <div class="border-right"><a href="adoption.html#form-container">Adopt a Pet</a></div>
+                <div class="border-right"><a href="#footer-section">Contact Us</a></div>
+                <div><a href="#about-section">About Us</a></div>
+            </div>
+            <div class="contact">
+                <div class="socials">
+                    <a href="https://about.meta.com/"><img id="facebook-img" src="assets/facebook-light.png" alt="Facebook"></a>
+                    <a href="https://x.com/?lang=en"><img id="twitter-img" src="assets/twitter-light.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/?hl=en"><img id="instagram-img" src="assets/instagram-light.png" alt="Instagram"></a>
+                </div>
+                <div class="tel-email">
+                    <div>
+                        <img id="email-img" src="assets/email-light.png" alt="email">
+                        <a href="mailto:hr@shnugglers.co.in">hr@shnugglers.co.in</a>
+                    </div>
+                    <div>
+                        <img id="phone-img" src="assets/phone-light.png" alt="tel">
+                        <a href="tel:+18575651234">+1-857-565-1234</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright of Shnugglers&ensp; | &ensp;All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="petCards.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

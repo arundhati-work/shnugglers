@@ -1,0 +1,50 @@
+@import "CommonElements/config";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+button{
+    cursor: pointer;
+}
+
+.inner-container{
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+h2{
+    color: $secondary-color;
+    font-family: $raleway;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+body{
+    background-color: var(--bg-light);
+}
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import "IndexFiles/hero";
+@import "CommonElements/button";
+@import "IndexFiles/about";
+@import "IndexFiles/pets";
+@import "CommonElements/footer";
+@import "CommonElements/footer";
+
+@import "AdoptionFiles/petDetails";
+@import "AdoptionFiles/process";
+@import "AdoptionFiles/form";
+
+@import "CommonElements/mobile";

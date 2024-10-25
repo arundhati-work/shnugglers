@@ -1,0 +1,55 @@
+$gender-colors: (
+    female: $female-color,
+    male: $male-color
+);
+
+.pets-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+
+.card {
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    a{
+        text-decoration: none;
+    }
+
+
+    @each $gender, $color in $gender-colors {
+        &.#{$gender} {
+            background-color: $color; 
+        }
+    }
+
+    .card-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-text {
+        padding: 1rem;
+        font-family: $quicksand;
+
+        h3 {
+            color: #f8f8f8;
+            text-align: left;
+            margin-left: 0.3rem;
+        }
+
+        p {
+            color: #f8f8f8;
+        }
+    }
+
+    .pet-breed-age{
+        margin: 1rem 0.3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
